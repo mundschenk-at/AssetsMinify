@@ -350,6 +350,7 @@ class AssetsMinifyInit {
 					$compassInstance->setImagesDir(get_theme_root() . "/" . get_template() . "/images");
 					$compassInstance->setGeneratedImagesPath( $this->assetsPath );
 					$compassInstance->setHttpGeneratedImagesPath( site_url() . str_replace( getcwd(), '', $this->assetsPath ) );
+					$compassInstance->setExternalEncoding('UTF-8');
 					$this->css->getFilterManager()->set('Compass', $compassInstance);
 					$filter = 'Compass';
 				} else {
