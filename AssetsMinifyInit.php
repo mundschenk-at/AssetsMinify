@@ -351,6 +351,7 @@ class AssetsMinifyInit {
 					$compassInstance->setFontsDir( get_theme_root() . "/" . get_template() . "/fonts" );
 					$compassInstance->setGeneratedImagesPath( $this->assetsPath );
 					$compassInstance->setHttpGeneratedImagesPath( site_url() . str_replace( getcwd(), '', $this->assetsPath ) );
+					$compassInstance->setHttpFontsPath( get_stylesheet_directory_uri() . "/fonts" );
 					$compassInstance->setExternalEncoding('UTF-8');
 					$this->css->getFilterManager()->set('Compass', $compassInstance);
 					$filter = 'Compass';

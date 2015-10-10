@@ -4,7 +4,7 @@ Plugin Name: Assets Minify
 Plugin URI: https://github.com/acarbone/AssetsMinify
 Description: WordPress plugin to minify JS and CSS assets.
 Author: Alessandro Carbone & Peter Putzer
-Version: 1.2.5
+Version: 1.2.6
 Author URI: http://www.artera.it
 */
 
